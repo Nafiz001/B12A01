@@ -133,7 +133,7 @@ body {
 }
 /* user-feedback section  */
 .users-feedback {
-  margin: 0 170px 137px 150px;
+  margin: 0 150px 137px 150px;
 }
 .users-feedback-title {
   color: rgb(37, 36, 50);
@@ -190,7 +190,7 @@ body {
 }
 /* focus-section */
 .focus {
-  margin: 0 170px 93px 150px;
+  margin: 0 149px 93px 151px;
   text-align: center;
   padding: 71px 150px;
   background-color: white;
@@ -223,4 +223,53 @@ body {
 }
 .focus-image {
   border-radius: 48px;
+}
+/* get in touch */
+.get-in-touch {
+  margin: 0 150px 14px 150px;
+  display: flex;
+  gap: 115px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 71px 0;
+}
+.get-in-touch-title {
+  color: rgb(0, 0, 0);
+  font-size: 97px;
+  font-weight: 700;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 19px;
+}
+.form-item {
+  width: 497px;
+  height: 70px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  font-weight: 400;
+  padding: 20px 32px;
+  box-sizing: border-box;
+  border: 1px solid rgb(214, 221, 237);
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  border: none;
+}
+textarea {
+  height: 135px;
+}
+.form-btn {
+  width: 497px;
+  height: 62px;
+  border-radius: 10px;
+  background: rgb(78, 71, 255);
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 700;
 }
