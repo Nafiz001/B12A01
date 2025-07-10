@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgba(78, 71, 255, 0.07);
+  background-color: rgba(78, 71, 255, 0.05);
 }
 /* Shared fonts */
 .inter-normal {
@@ -166,9 +166,11 @@ body {
 }
 .feedbacks {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .feedback {
+  width: 366px;
+  height: 243px;
   padding: 24px;
   box-sizing: border-box;
   border: 1px solid rgb(242, 237, 237);
