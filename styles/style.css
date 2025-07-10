@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.navbar-and-banner {
+  background-image: url("../Assets/Hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar {
+  margin: 0 150px 158px 150px;
+  height: 151px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-title {
+  color: rgb(78, 71, 255);
+  font-size: 34px;
+  font-weight: 900;
+}
+.signup {
+  border-radius: 10px;
+  background: rgb(78, 71, 255);
+  width: 132px;
+  height: 48px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
