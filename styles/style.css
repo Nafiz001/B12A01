@@ -46,6 +46,14 @@ body {
   font-size: 16px;
   font-weight: 700;
   text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  border: none;
+}
+.signup:hover{
+  transform: translateY(-0.5rem);
+  background-color: blue;
+  box-shadow: 3px 3px 5px black;
 }
 .banner {
   margin: 158px 267.5px 152px;
@@ -67,7 +75,14 @@ body {
   font-size: 16px;
   font-weight: 700;
   text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
   border: none;
+}
+.banner-btn:hover{
+  transform: translateY(-0.5rem);
+  background-color: blue;
+  box-shadow: 3px 3px 5px black;
 }
 /* action section  */
 .action {
@@ -99,6 +114,13 @@ body {
   font-weight: 700;
   text-align: center;
   border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.action-column1-btn:hover{
+  transform: translateY(-0.5rem);
+  background-color: blue;
+  box-shadow: 3px 3px 5px black;
 }
 .action-image {
   border-radius: 48px;
@@ -220,6 +242,13 @@ body {
   color: rgb(255, 255, 255);
   font-size: 16px;
   font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.focus-btn:hover{
+  transform: translateY(-0.5rem);
+  background-color: blue;
+  box-shadow: 3px 3px 5px black;
 }
 .focus-image {
   border-radius: 48px;
@@ -272,4 +301,44 @@ textarea {
   color: rgb(255, 255, 255);
   font-size: 16px;
   font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.form-btn:hover {
+  transform: translateY(-0.5rem);
+  background-color: blue;
+  box-shadow: 3px 3px 5px black;
+}
+
+/* footer */
+footer {
+  padding: 104px 455px;
+  text-align: center;
+  background-color: white;
+}
+footer ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+.footer-title {
+  color: rgb(78, 71, 255);
+  font-size: 100px;
+  font-weight: 900;
+}
+.footer-subtitle {
+  color: rgb(137, 135, 161);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+footer ul li a {
+  text-decoration: none;
+  color: rgb(137, 135, 161);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+}
+footer ul li a:hover{
+  color: blue;
 }
